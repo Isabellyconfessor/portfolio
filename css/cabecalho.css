@@ -1,6 +1,4 @@
 .cabecalho {
-    background-color:#f4f4f4;
-    color: #000;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -8,8 +6,8 @@
     align-items: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #000;
-    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid var(--borda-preta);
+    font-family: var(--fonte-cabecalho);
 }
 
 .img__cabecalho {
@@ -34,11 +32,11 @@
 }
 
 .link:hover {
-    text-decoration: underline #b40465;
+    text-decoration: underline var(--destaques-rosa);
 }
 
 .rosa {
-    color: #b40465;
+    color: var(--destaques-rosa);
 }
 
 @media screen and (min-width:768px) {
@@ -58,7 +56,7 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 0.3rem 3rem;
-        border-bottom: 1.5px solid #000;
+        border-bottom: 1.5px solid var(--borda-preta);
     }
     .img__cabecalho {
         width:20%;
