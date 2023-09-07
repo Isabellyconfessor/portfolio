@@ -14,7 +14,7 @@
 }
 
 .titulo__inicio {
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
     font-weight: 700;
     color: #b40465;
     font-size: 1rem;
@@ -23,17 +23,46 @@
 .descricao__inicio {
     font-weight: 300;
     font-size: 0.8rem;
+    line-height: 1.7rem;
+    font-family: 'Merriweather', serif;
 }
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.link__redes {
+    font-size: 1rem;
+}
+
+.img__redes {
+    width: 30%;
+}
+
 
 @media screen and (min-width:768px) {
     .img__inicio {
-        width: 25%;
+        width: 20%;
     }
     .titulo__inicio {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .descricao__inicio {
         font-size: 1rem;
+    }
+    .redes-sociais {
+        padding-top: 1.5rem;
+    }
+    .link__redes {
+        font-size: 1.2rem;
+    }
+    .img__redes {
+        width: 17%;
     }
 }
 
@@ -41,30 +70,50 @@
     .inicio {
         display: flex;
         align-items: center;
+        box-sizing: border-box;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        justify-content: space-evenly;
     }
-    .alinhaDireita__inicio {
+    .informacao__inicio {
         margin: 0 auto;
     }
     .img__inicio {
         width: 20%;
     }
     .titulo__inicio {
+        font-size: 1.5rem;
+    }
+    .descricao__inicio {
+        font-size: 1.2rem;
+    }
+    .redes-sociais {
+        flex-direction: column;
+        text-align: right;
+        margin: 0;
+    }
+    .link__redes {
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        max-width: 100px;
+    }
+    .img__redes {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .titulo__inicio {
         font-size: 1.8rem;
     }
     .descricao__inicio {
         font-size: 1.5rem;
     }
-}
-
-@media screen and (min-width:1440px) {
-    .inicio {
-        padding-right: 2rem;
-        padding-left: 2rem;
+    .link__redes {
+        padding-bottom: 1.2rem;
+        font-size: 1.5rem;
     }
-    .titulo__inicio {
-        font-size: 2rem;
-    }
-    .descricao__inicio {
-        font-size: 1.8rem;
+    .img__redes {
+        width: 35%;
     }
 }
