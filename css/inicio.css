@@ -3,7 +3,6 @@
     padding-top: 1.8rem;
     text-align: center;
     background-color: #f4f4f4;
-    font-family: 'Playfair Display', serif;
     box-sizing: border-box;
 }
 
@@ -17,6 +16,7 @@
     padding-bottom: 0.5rem;
     font-weight: 700;
     color: #b40465;
+    font-family: 'Playfair Display', serif;
     font-size: 1rem;
 }
 
