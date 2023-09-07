@@ -44,11 +44,6 @@
     width: 30%;
 }
 
-.link__redes::after  {
-    content: '\1F865';
-    color: #b40465;
-}
-
 @media screen and (min-width:768px) {
     .img__inicio {
         width: 20%;
@@ -68,7 +63,10 @@
     .img__redes {
         width: 17%;
     }
-
+    .link__redes::after  {
+        content: '\1F865';
+        color: #b40465;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -105,7 +103,10 @@
     .img__redes {
         width: 40%;
     }
-    
+    .link__redes::after  {
+        content: '\1F865';
+        color: #b40465;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -121,5 +122,9 @@
     }
     .img__redes {
         width: 35%;
+    }
+    .link__redes::after  {
+        content: '\1F865';
+        color: #b40465;
     }
 }
