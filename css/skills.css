@@ -1,0 +1,106 @@
+.skills {
+    padding: 1.5rem;
+    padding-top: 1.8rem;
+    border-bottom: 1px solid var(--borda-preta);
+}
+
+.container_geral__skills {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo__skills {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3rem;
+    color: var(--destaques-rosa);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.container__skills {
+    margin: 1rem;
+    width: 25%;
+    border: 1px solid var(--destaques-rosa);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container__skills:hover {
+    box-shadow: 3px 3px 10px var(--destaques-rosa);
+    transform: scale(1.1);
+}
+
+.img__skills {
+    width: 60%;
+    padding-bottom: 0.5rem;
+}
+
+.descricao__skills {
+    font-family: var(--fonte-descricao);
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding-top: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .titulo__skills {
+        font-size: 1.5rem;
+    }
+    .container_geral__skills{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .container__skills {
+        width: 15%;
+    }
+    .img__skills {
+        width: 45%;
+    }
+    .descricao__skills {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo__skills {
+        font-size: 1.8rem;
+    }
+    .container_geral__skills{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .container__skills {
+        width: 20%;
+    }
+    .img__skills {
+        width: 50%;
+    }
+    .descricao__skills {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .titulo__skills {
+        font-size: 2rem;
+    }
+    .container_geral__skills{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .container__skills {
+        width: 25%;
+    }
+    .img__skills {
+        width: 45%;
+    }
+    .descricao__skills {
+        font-size: 1.4rem;
+    }
+}

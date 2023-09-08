@@ -16,7 +16,7 @@
     padding-bottom: 0.5rem;
     font-weight: 700;
     color: var(--destaques-rosa);
-    font-family: var(--fonte-titulo-inicio);
+    font-family: var(--fonte-titulo);
     font-size: 1rem;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 300;
     font-size: 0.8rem;
     line-height: 1.2rem;
-    font-family: var(--fonte-descricao-inicio);
+    font-family: var(--fonte-descricao);
 }
 
 .redes-sociais {
@@ -44,11 +44,6 @@
     width: 30%;
 }
 
-.link__redes::after  {
-    content: '\1F865';
-    color: var(--destaques-rosa);
-}
-
 @media screen and (min-width:768px) {
     .img__inicio {
         width: 20%;
@@ -62,12 +57,13 @@
     }
     .redes-sociais {
         padding-top: 1.5rem;
+        max-width: 450px;
     }
     .link__redes {
         font-size: 1.2rem;
     }
     .img__redes {
-        width: 17%;
+        width: 23%;
     }
 }
 
@@ -106,6 +102,10 @@
     }
     .img__redes {
         width: 40%;
+    }
+    .link__redes::after  {
+        content: '\1F865';
+        color: var(--destaques-rosa);
     }
 }
 

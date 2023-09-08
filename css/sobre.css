@@ -7,7 +7,7 @@
 }
 
 .titulo__sobre {
-    font-family: var(--fonte-titulo-sobre);
+    font-family: var(--fonte-titulo);
     font-size: 1.3rem;
     color: var(--destaques-rosa);
     font-weight: 700;
@@ -25,6 +25,8 @@
     line-height: 1.1rem;
     max-width: 550px;
     margin: 0 auto;
+    font-family: var(--fonte-descricao);
+    font-size: 0.8rem;
 }
 
 .itens__sobre::before {
@@ -37,7 +39,7 @@
         font-size: 1.5rem;
     }
     .itens__sobre {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.3rem;
     }
 }
@@ -47,19 +49,19 @@
         font-size: 1.8rem;
     }
     .itens__sobre {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         max-width: 650px;
-        line-height: 1.5rem;
+        line-height: 1.7rem;
         padding-bottom: 1rem;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .titulo__sobre {
         font-size: 2rem;
     }
     .itens__sobre {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         max-width: 800px;
         line-height: 1.8rem;
         padding-bottom: 1rem;
