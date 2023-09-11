@@ -1,0 +1,117 @@
+.formacoes {
+    padding: 1.5rem;
+    padding-top: 1.8rem;
+    border-bottom: 1px solid var(--borda-preta);
+}
+
+.titulo__formacoes {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3rem;
+    color: var(--destaques-rosa);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.container__formacoes {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formacao {
+    margin: 1rem;
+    width: 50%;
+    border: 1px solid var(--destaques-rosa);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    max-width: 170px;
+}
+
+.formacao:hover {
+    box-shadow: 3px 3px 10px var(--destaques-rosa);
+    transform: scale(1.1);
+}
+
+.titulo__formacao {
+    font-family: var(--fonte-titulo);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-bottom: 0.6rem;
+}
+
+.descricao__formacao {
+    font-family: var(--fonte-descricao);
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+}
+
+.data__formacao {
+    font-family: var(--fonte-descricao);
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .titulo__formacoes{
+        font-size: 1.5rem;
+    }
+    .container__formacoes{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .formacao {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo__formacoes {
+        font-size: 1.8rem;
+    }
+    .container__formacoes{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .formacao {
+        width: 45%;
+    }
+    .titulo__formacao {
+        font-size: 1rem;
+    }
+    .descricao__formacao {
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+    .data__formacao {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .titulo__formacoes {
+        font-size: 2rem;
+    }
+    .container__formacoes{
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    .formacao {
+        width: 60%;
+    }
+    .titulo__formacao {
+        font-size: 1.2rem;
+    }
+    .descricao__formacao {
+        font-size: 1rem;
+        padding-bottom: 0.7rem;
+    }
+    .data__formacao {
+        font-size: 0.9rem;
+    }
+}
