@@ -39,21 +39,21 @@
 
 .titulo__formacao {
     font-family: var(--fonte-titulo);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 700;
     padding-bottom: 0.6rem;
 }
 
 .descricao__formacao {
     font-family: var(--fonte-descricao);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 500;
     padding-bottom: 0.4rem;
 }
 
 .data__formacao {
     font-family: var(--fonte-descricao);
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
@@ -82,14 +82,14 @@
         width: 45%;
     }
     .titulo__formacao {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .descricao__formacao {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-bottom: 0.6rem;
     }
     .data__formacao {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -108,10 +108,10 @@
         font-size: 1.2rem;
     }
     .descricao__formacao {
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding-bottom: 0.7rem;
     }
     .data__formacao {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }

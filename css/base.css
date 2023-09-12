@@ -1,4 +1,8 @@
 * {
+    margin: 0;
+}
+
+header, section{
     background-color: var(--fundo);
 }
 
@@ -10,7 +14,4 @@
 
     --fonte-titulo:'Playfair Display', serif;
     --fonte-descricao: 'Merriweather', serif;
-
-    
-    
 }
