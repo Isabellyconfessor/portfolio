@@ -12,7 +12,7 @@ footer {
     font-size: 0.8rem;
     font-weight: 500;
     color: white;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0.8rem;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ footer {
         width: 3rem;
     }
     .texto__rodape {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 1.8rem 1.3rem;
     }
 }

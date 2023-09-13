@@ -1,0 +1,131 @@
+.contato {
+    padding: 1.5rem;
+    padding-top: 1.8rem;
+    border-bottom: 1px solid var(--borda-preta);
+    text-align: center;
+}
+
+.titulo__contato {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3rem;
+    color: var(--destaques-rosa);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.descricao__contato {
+    font-family: var(--fonte-descricao);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.campo__contato {
+    margin: 1.3rem;
+}
+
+input {
+    height: 1.5rem;
+    width: 90%;
+    padding: 0.5rem;
+    font-family: var(--fonte-descricao);
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--destaques-rosa);
+}
+
+input:focus{
+    box-shadow: 3px 3px 10px var(--destaques-rosa);
+    border-color: var(--destaques-rosa);
+}
+
+textarea {
+    height: 6rem;
+    width: 90%;
+    padding: 0.5rem;
+    font-family: var(--fonte-descricao);
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--destaques-rosa);
+}
+
+textarea:focus{
+    box-shadow: 3px 3px 10px var(--destaques-rosa);
+    border-color: var(--destaques-rosa);
+}
+
+.botao__enviar {
+    padding: 0.5rem 0.7rem;
+    width: 85%;
+    background-color: var(--destaques-rosa);
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    font-family: var(--fonte-descricao);
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.botao__enviar:hover, .botao__enviar:focus {
+    box-shadow: 3px 3px 10px var(--destaques-rosa);
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .container__contato {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .titulo__contato {
+        font-size: 1.5rem;
+    }
+    .descricao__contato {
+        font-size: 0.9rem;
+    }
+    .botao__enviar {
+        padding: 0.7rem 0.7rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__contato {
+        max-width: 650px;
+        margin: 0 auto;
+        padding-top: 0.5rem;
+    }
+    .titulo__contato {
+        font-size: 1.8rem;
+    }
+    .descricao__contato {
+        font-size: 1.1rem;
+    }
+    .botao__enviar {
+        padding: 0.9rem 0.7rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container__contato {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .titulo__contato {
+        font-size: 2rem;
+    }
+    .descricao__contato {
+        font-size: 1.3rem;
+    }
+    .botao__enviar {
+        padding: 1rem 0.7rem;
+        font-size: 1.1rem;
+    }
+}
