@@ -1,0 +1,73 @@
+.cabecalho {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--borda-preta);
+    font-family: var(--fonte-cabecalho);
+}
+
+.img__cabecalho {
+    width:50%;
+    padding-bottom: 1rem;
+}
+
+.nav__links {
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.link {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;    
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline var(--destaques-rosa);
+}
+
+.rosa {
+    color: var(--destaques-rosa);
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho{
+        padding-bottom: 0.8rem;
+    }
+    .img__cabecalho {
+        width:25%;
+    }
+    .link {
+        font-size: 1rem;
+    }    
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.3rem 3rem;
+        border-bottom: 1.5px solid var(--borda-preta);
+    }
+    .img__cabecalho {
+        width:20%;
+    }
+    .link {
+        font-size: 1.2rem;
+    }    
+}
+
+@media screen and (min-width:1440px) {
+    .link {
+        font-size: 1.5rem;
+    }    
+}

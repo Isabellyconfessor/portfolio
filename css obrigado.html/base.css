@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+header, section{
+    background-color: var(--fundo);
+}
+
+:root {
+    --fundo: #f4f4f4;
+    --destaques-rosa: #b40465;
+    --borda-preta: #000;
+    --fonte-cabecalho: 'Playfair Display', serif;
+
+    --fonte-titulo:'Playfair Display', serif;
+    --fonte-descricao: 'Merriweather', serif;
+}

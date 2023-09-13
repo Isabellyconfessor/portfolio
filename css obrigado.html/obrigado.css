@@ -1,0 +1,73 @@
+.obrigado {
+    width: 100vw;
+    height: 80vh;
+    padding: 4rem 2rem ;
+    box-sizing: border-box;
+}
+
+.titulo__obrigado {
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: var(--destaques-rosa);
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.msg__obrigado {
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: var(--destaques-rosa);
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.1rem;
+}
+
+.container_img__obrigado {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img__obrigado {
+    width: 70%;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .titulo__obrigado {
+        font-size: 1.2rem;
+    }
+    .msg__obrigado {
+        font-size: 1rem;
+    }
+    .img__obrigado {
+        width: 40%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo__obrigado {
+        font-size: 1.3rem;
+    }
+    .msg__obrigado {
+        font-size: 1.1rem;
+    }
+    .img__obrigado {
+        width: 30%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .titulo__obrigado {
+        font-size: 1.4rem;
+    }
+    .msg__obrigado {
+        font-size: 1.2rem;
+    }
+    .img__obrigado {
+        width: 20%;
+        padding: 1rem;
+    }
+}
