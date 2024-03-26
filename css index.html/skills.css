@@ -3,7 +3,7 @@
     padding-top: 1.8rem;
 }
 
-.container_geral__skills {
+.container-geral__skills {
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
