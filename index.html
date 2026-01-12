@@ -248,7 +248,9 @@
 
 
         <footer class="rodape">
-            <p class="texto__rodape">&#169; 2023 | Desenvolvido por Isabelly Sales Confessor</p>
+            <p class="texto__rodape">
+                &#169; <span id="ano-atual"></span> | Projetado e Desenvolvido por Isabelly Sales Confessor
+            </p>
             <a href="#">
                 <button class="botao__rodape">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -257,5 +259,9 @@
                 </button>
             </a>
         </footer>
+        <script>
+    // Esse script insere o ano do seu computador/celular
+            document.getElementById('ano-atual').textContent = new Date().getFullYear();
+        </script>
     </body>
 </html>
